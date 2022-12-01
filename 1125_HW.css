@@ -1,0 +1,54 @@
+body{
+    margin: 0%;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    background-position: center;
+}
+.container{
+    width: 70%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    margin: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+form .input-box{
+    margin: 1%;
+}
+inline{
+    display: flex;
+}
+form .input-box1{
+    flex: 1;
+    margin: 1%;
+}
+span{
+    margin-left: auto;
+    margin-right: auto;
+}
+input, textarea{
+    vertical-align: top;
+    width: 70%;
+}
+.pic{
+    margin: 1%;
+}
+@media screen{
+	body{
+        background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    }
+}
+@media print{
+	body{
+        background: linear-gradient(135deg, #6c437c, #466f8b);
+    }
+}
