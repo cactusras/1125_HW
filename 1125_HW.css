@@ -9,10 +9,9 @@ body{
 }
 .container{
     width: 70%;
-    background: #fff;
     padding: 25px 30px;
     border-radius: 5px;
-    margin: 10%;
+    margin: 15%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -41,6 +40,7 @@ input, textarea{
 }
 .pic{
     margin: 1%;
+    position:absolute;
 }
 @media screen{
 	body{
